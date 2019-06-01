@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joseph Park</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style>
+            .berkeley {
+                background-image: url("ucberkeley.jpg");
+                background-size: 100%;
+                background-position: center;
+                background-repeat: none;
+                height: 500px;
+            }
+
+            section {  
+                height: 800px;
+            }
+
+            .container {
+                width: 300px;
+                padding-top: 15%;
+                padding-left: 12%; 
+            }
+
+            .container img {
+                height: 400px;
+                width: 450px;
+                height: auto;
+            }
+
+            .aboutd {
+                height: 35%;
+                width: 30%;
+                margin-top: -300px; 
+                margin-left: 50%; 
+                border-color: black;
+                border-width: 5px;  
+                border-style: inset; 
+                padding: 10px;
+                padding-top: 0px;
+            }
+
+            h1 {
+                border-bottom: 5px solid rgb(25, 77, 223);
+                text-align: center;           
+            }
+
+            footer {
+                position: absolute;
+                bottom: -600px;
+            }
+
+            /*Responsive Rules*/
+            @media screen and (max-width: 1530px) {
+                footer {
+                    position: absolute;
+                    bottom: -650px;
+                }
+            }
+
+            @media screen and (max-width: 1450px) {
+                footer {
+                    position: absolute;
+                    bottom: -650px;
+                }
+            }
+
+            @media screen and (min-width: 1231px) {
+                .aboutm {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 1230px) {
+                .container {
+                    padding-top: 5%;
+                    margin-left: 20%;
+                }
+
+                .aboutm {
+                    height: 35%;
+                    width: 30%;
+                    margin-top: 45px; 
+                    margin-left: 35%;
+                    background-color: rgb(0, 183, 255);
+                    border-color: black;
+                    border-width: 5px;  
+                    border-style: inset; 
+                    padding: 10px;
+                }
+
+                .aboutd {
+                    display: none;
+                }
+
+                footer {
+                    position: absolute;
+                    bottom: -660px;
+                }
+
+            }
+
+            @media screen and (max-width: 1000px) {
+                .berkeley {
+                    height: 400px;
+                }
+                footer {
+                    position: absolute;
+                    bottom: -550px;
+                }
+            }
+
+            @media screen and (max-width: 920px) {
+                .container {
+                    margin-left: 15%;
+                }
+            }
+
+            @media screen and (max-width: 660px) {
+                .berkeley {
+                    height: 300px;
+                }
+                footer {
+                    position: absolute;
+                    bottom: -450px;
+                }
+            }
+
+            @media screen and (max-width: 690px) {
+                .container {
+                    margin-left: 0%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="index.html" class="home">Joseph Park</a>
+                </div>
+                <ul class="desktop">
+                    <li><a href="Joseph Park Resume.pdf">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="mobile">
+                    <li><a href="Joseph Park Resume.pdf">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="berkeley">
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <img src="josephparkpicture.jpg" alt="Picture of Joseph Park">
+            </div>
+            <div class="aboutd">
+                <h1>About</h1>
+                <p>Hello! My name is Joseph Park. I am currently a third year studying Computer Science at University of California, Berkeley.</p> 
+            </div>
+            <div class="aboutm">
+                <h1>About</h1>
+                <p>Hello! My name is Joseph Park. I am currently a third year studying Computer Science at University of California, Berkeley.</p> 
+            </div>
+        </section>
+        <footer>
+            <div class="social">
+                <a href="contact.html"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/joseph-park-7452b8156/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Josephpark27"><i class="fab fa-github-square"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
